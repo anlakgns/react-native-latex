@@ -1,27 +1,28 @@
 {
-    "name": "react-native-latex",
-    "version": "0.4.4",
-    "description": "React Native - Component to render LateX formulas in React Native App",
-    "license": "MIT",
-    "main": "src/index.js",
-    "author": "jinnahrae@gmail.com",
-    "scripts": {
-        "postinstall": "node ./post-install.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/railsjack/react-native-latex"
-    },
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org/"
-    },
-    "keywords": [
-        "latex",
-        "React",
-        "Native"
-    ],
-    "dependencies": {
-        "gently-copy": "latest",
-        "react-native-webview": "latest"
-    }
+  "name": "react-native-latex",
+  "version": "0.4.4",
+  "description": "React Native - Component to render LateX formulas in React Native App",
+  "license": "MIT",
+  "main": "src/index.js",
+  "author": "jinnahrae@gmail.com",
+  "scripts": {
+    "postinstall": "node ./post-install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/railsjack/react-native-latex"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "latex",
+    "React",
+    "Native"
+  ],
+  "dependencies": {
+    "gently-copy": "latest",
+    "react-native-fast-image": "^8.6.3",
+    "react-native-webview": "latest"
+  }
 }
